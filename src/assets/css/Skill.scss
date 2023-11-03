@@ -1,0 +1,20 @@
+.skill{
+    position: fixed;
+    margin: 80px 0 0 50px;
+    top: 5%;
+    left: 35%;
+    text-align: left;
+    h2{
+        font-size: 64px;
+        margin: 50px 0 0 15px;;
+    }
+    .skill_icon{
+        .skill_img{
+            margin: 0;
+            img{
+                width: 100px;
+                margin: 20px 50px 20px 0;
+            }
+        }
+    }
+}

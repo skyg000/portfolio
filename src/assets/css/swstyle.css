@@ -1,0 +1,22 @@
+
+    
+    .swiper {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .swiper-slide img {
+        display: block;
+        object-fit: cover;
+    }
+    .swiper-pagination{
+        right: 7%;
+    }

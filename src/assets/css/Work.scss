@@ -1,0 +1,136 @@
+@mixin font {
+    font-size: 20px;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+hr{
+    margin: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+    &:hover{
+        color: red;
+    }
+}
+.work{
+    font-family: 'Pretendard-Regular';
+    position: fixed;
+    margin: 50px 54px 0 50px;
+    top: 5%;
+    left: 30%;
+    text-align: left;
+    h2{
+        font-size: 64px;
+        margin: 50px 0 0 0px;
+        
+    }
+    .mySwiper{
+        width: 1220px;
+        object-fit:contain;
+    }
+    .mySwiper2{
+        height: 410px;
+        object-fit:contain;
+        margin-bottom: 10px;
+    }
+    .swiper-slide {
+        text-align: left;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    .flex{
+        display: flex;
+    }
+    
+    .swiper-slide img {
+        display: block;
+        object-fit: contain;
+    }
+    .swiper-pagination{
+        right: 7%;
+        color: red;
+    }
+    .swiper-button-prev, .swiper-button-next, 
+    .swiper-button-prev::after, .swiper-button-next::after{
+        color: rgb(255, 0, 0);
+        font-size: 20px;
+        font-weight: bold;
+        top: 55%;
+        &:nth-child(0){
+            color: rgb(4, 220, 40);
+            font-size: 20px;
+            font-weight: bold;
+            top: 55%;
+        }
+    }
+    .worktotal{
+        width: 500px;
+        margin-left: 20px;
+        .worktitle{
+            text-align: left;
+            b{
+                font-size: 24px;
+            }
+            .produce{
+                margin: 5px 0;
+                font-size: 20px;
+            }
+            .workday{
+                margin: 10px auto;
+                @include font;
+            }
+        }
+        .worktext{
+            @include font;
+            .workskill{
+                margin: 3px auto;
+                font-weight: bold;
+            }
+            .workplan{
+                margin: 3px auto;
+                font-weight: bold;
+            }
+            .workskilltxt{
+                margin: 5px auto 10px;
+                color: /* #0afe06 */ red;
+            }
+            .workplantxt{
+                margin: 5px auto 10px;
+            }
+            .workres{
+                margin: 3px auto;
+                font-weight: bold;
+            }
+            .workplanrestxt{
+                margin: 5px auto ;
+            }
+        }
+        .link{
+            @include font;
+    
+            .gitlink{
+                text-align: left;
+                margin:10px 50px 10px 0;
+                color: black;
+                
+            }
+            .workurl{
+                text-align: left;
+                margin:10px 40px 50px 0;
+            }
+        }
+    }
+    
+
+
+
+
+
+
+}
