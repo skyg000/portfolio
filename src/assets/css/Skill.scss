@@ -6,14 +6,73 @@
     text-align: left;
     h2{
         font-size: 64px;
-        margin: 50px 0 0 15px;;
+        margin: 50px 0 0 90px;
     }
     .skill_icon{
         .skill_img{
+            display: flex;
+            flex-wrap: wrap;
             margin: 0;
             img{
                 width: 100px;
-                margin: 20px 50px 20px 0;
+                height: 110px;
+                margin: 20px 80px 0px 80px;
+            }
+            .s_count{
+                margin-right: 20px;
+                
+                p{
+                    text-align: center;
+                    color: red;
+                    width: 100%;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+/* === media 1024 === */
+@media (max-width: 1024px) {
+    .skill{
+        margin: 65px 0 0 50px;
+        h2{
+            font-size: 40px;
+            margin: 50px 0 0 35px;
+        }
+        .skill_icon{
+            .skill_img{
+                img{
+                    width: 70px;
+                    height: 70px;
+                    margin: 10px 30px 0px;
+                }
+                .s_count{
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+}
+/* === media 480 === */
+@media (max-width: 480px) {
+    .skill{
+        left: 0;
+        top: 20%;
+        margin:90px 25px 0 0;
+        h2{
+            font-size: 20px;
+            margin: 40px 0 0 20px;
+        }
+        .skill_icon{
+            .skill_img{
+                img{
+                    width: 50px;
+                    height: 50px;
+                    margin: 10px 15px 0px;
+                }
+                .s_count{
+                    margin-right: 30px;
+                }
             }
         }
     }

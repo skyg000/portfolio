@@ -38,7 +38,9 @@ body{
   text-align: center;
   color: #2c3e50;
   
+  .comp{
+    background-color: #8DB3B7;
+  }
 }
-
 
 </style>

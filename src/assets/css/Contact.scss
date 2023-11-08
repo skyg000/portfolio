@@ -9,7 +9,7 @@
     position: fixed;
     margin: 80px 0 0 50px;
     top: 5%;
-    left: 35%;
+    left: 50%;
     text-align: left;
     h2{
         font-size: 64px;
@@ -18,17 +18,95 @@
     .cimg{
         display: flex;
         align-items: center;
-        font-size: 20px;
+        font-size: 25px;
+        margin-bottom: 100px;
         img{
             margin-right: 50px;
+        }
+        .mail{
+            display: flex;
+            align-items: center;
         }
     }
     .cimg3{
         display: flex;
         align-items: center;
-        font-size: 20px;
+        font-size: 25px;
+        margin-bottom: 100px;
         img{
             margin-right: 40px;
+        }
+    }
+}
+/* === media === */
+@media (max-width: 1024px) {
+    .contact{
+        font-family: 'Pretendard-Regular';
+        position: fixed;
+        margin: 60px 0 ;
+        top: 5%;
+        left: 50%;
+        text-align: left;
+        h2{
+            font-size: 40px;
+            margin: 50px 0 70px 0px;
+        }
+        .cimg{
+            display: flex;
+            align-items: center;
+            font-size: 25px;
+            margin-bottom: 50px;
+            img{
+                margin: 0 30px 0 5px;
+            }
+            .mail{
+                display: flex;
+                align-items: center;
+            }
+        }
+        .cimg3{
+            display: flex;
+            align-items: center;
+            font-size: 25px;
+            margin-bottom: 50px;
+            img{
+                margin-right: 25px;
+            }
+        }
+    }
+}
+/* === media 480 === */
+@media (max-width: 480px) {
+    .contact{
+        font-family: 'Pretendard-Regular';
+        position: fixed;
+        margin: 60px 25px ;
+        top: 25%;
+        left: 0;
+        text-align: left;
+        h2{
+            font-size: 20px;
+            margin: 20px 0 40px 0px;
+        }
+        .cimg{
+            font-size: 20px;
+            margin-bottom: 30px;
+            img{
+                width: 30px;
+                margin: 0 30px 0 5px;
+            }
+            .mail{
+                display: flex;
+                align-items: center;
+            }
+        }
+        .cimg3{
+            font-size: 20px;
+            margin-bottom: 30px;
+            img{
+                width: 40px;
+                margin-right: 25px;
+            }
         }
     }
 }

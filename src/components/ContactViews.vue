@@ -3,11 +3,13 @@
     <h2> CONTACT </h2>
     <p class="cimg">
       <img src="../../public/img/icons/contacticon/mail.png" />
-      E-mail : skyg000@naver.com
+      <a href="mailto:skyg000@naver.com" class="mail">
+      E-mail : skyg000@naver.com 
+    </a>
     </p>
     <p class="cimg">
       <img src="../../public/img/icons/contacticon/phone.png" />
-      phone : 010-4222-1318
+      Phone : 010-4222-1318
     </p>
     <p class="cimg3">
       <img src="../../public/img/icons/contacticon/git.png" />
