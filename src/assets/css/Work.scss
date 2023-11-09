@@ -171,16 +171,30 @@ a{
         
         .worktotal{
             width: 230px;
-            .worktitle{
-                b{
-                    font-size: 1rem;
-                }
-                .produce{
-                    @include sfont;
-                }
-            }
             .worktext{
-                @include sfont;
+                @include font;
+                .workskill{
+                    margin: 3px auto;
+                    font-weight: bold;
+                }
+                .workplan{
+                    margin: 3px auto;
+                    font-weight: bold;
+                }
+                .workskilltxt{
+                    margin: 5px auto 10px;
+                    color: /* #0afe06 */ red;
+                }
+                .workplantxt{
+                    margin: 5px auto 10px;
+                }
+                .workres{
+                    margin: 3px auto;
+                    font-weight: bold;
+                }
+                .workplanrestxt{
+                    margin: 5px auto ;
+                }
             }
             .link{
                 @include sfont;
@@ -195,7 +209,7 @@ a{
     .work{
         margin:90px 25px 0;
         left: 0;
-        top: 20%;
+        top: 15%;
         height: 650px;
         h2{
             font-size: 20px;
@@ -220,7 +234,7 @@ a{
             }
             .port{
                 width: 350px;
-                height: 250px;
+                height: 150px;
             }
         }
         .flex{
@@ -228,7 +242,7 @@ a{
         }
         .swiper-slide img {
             width: 400px;
-            height: 200px;
+            height: 150px;
         }
         
         .swiper-button-prev, .swiper-button-next, 
@@ -240,11 +254,14 @@ a{
         }
         
         .worktotal{
+            width: 385px;
             position: absolute;
-            top: 35%;
-            width: 400px;
-            margin: 0 20px 0 0;
+            top: 25%;
+            margin: 0 230px 0 0;
             .worktitle{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
                 b{
                     font-size: 1rem;
                 }
@@ -252,12 +269,38 @@ a{
                     @include sfont;
                 }
             }
+            .workskill{
+                margin: 0px auto;
+            }
+            .workplan{
+                margin: 0px auto;
+            }
+            .workskilltxt{
+                margin: 5px auto;
+            }
+            .workplantxt{
+                margin: 5px auto;
+            }
+            .workres{
+                margin: 0px auto;
+            }
+            .workplanrestxt{
+                margin: 0px auto ;
+            }
             .worktext{
+                margin: 5px auto ;
                 @include sfont;
             }
             .link{
-                @include sfont;
+            @include sfont;
+            .gitlink{
+                margin:5px 50px 5px 0;
+                
             }
+            .workurl{
+                margin:5px 40px 5px 0;
+            }
+        }
         }
     }
 }

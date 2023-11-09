@@ -32,10 +32,12 @@
   
 <script>
 export default {
+
     name: 'AboutView',
     components: {
     }
 }
+
 </script>
 <style lang="scss">
 @import '/src/assets/css/About.scss';

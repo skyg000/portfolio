@@ -1,5 +1,5 @@
 <template >
-     <div id="app">
+    <div id="darkapp">
         <div class="flex">
             <div class="mode-toggle" @click="modeToggle" :class="darkDark">
                 <div class="toggle">
@@ -7,23 +7,31 @@
                 </div>
             </div>
         </div>
-</div>
+    </div>
 </template>
 <script>
+import { mapState, mapMutations } from 'vuex';
 export default {
     data() {
-    return {
-      darkDark: '' // 초기값을 필요에 따라 지정하세요.
-    };
-  },
-  methods: {
-    modeToggle() {
-      document.body.classList.toggle('dark-mode');
-      this.darkDark = document.body.classList.contains('dark-mode') ? 'dark-mode' : '';
+        return {
+            darkDark: '' 
+        };
     },
-  },
+    computed:{
+        ...mapState(["dark"])
+    },
+    methods: {
+        ...mapMutations(["setDark"]),
+        darkModeEdit(){
+            this.setDark(true);
+        },
+        modeToggle() {
+            document.body.classList.toggle('dark-mode');
+            this.darkDark = document.body.classList.contains('dark-mode') ? 'dark-mode' : '';
+        },
+    },
 }
 </script>
 <style lang="scss">
-    @import '/src/assets/css/Dark.scss';
+@import '/src/assets/css/Dark.scss';
 </style>
