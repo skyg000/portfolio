@@ -1,6 +1,6 @@
 <template>
     <div class="work">
-        <h2> WORK </h2>
+        <h2> PROJECT </h2>
         <swiper class="mySwiper" :pagination="{
             clickable: true,
         }" :loop='true' :navigation="true" :modules="modules">

@@ -4,7 +4,7 @@
       <img alt="Myimg" src="../../public/img/16.jpg"/>
       <div class="media">
         <p class="job"> PUBLISHER & FRONTEND 
-          <img class="Vector" src="../../public/img/Vector.png">
+          <!-- <img class="Vector" src="../../public/img/Vector.png"> -->
           <a href="./Contact" class="airlink">
             <img class="aircontact" src="../../public/img/air.png">
           </a>
@@ -25,7 +25,7 @@
     <div class="route">
       <router-link to="/" >A</router-link>
       <router-link to="/Skill" >S</router-link>
-      <router-link to="/Work" >W</router-link>
+      <router-link to="/Work" >P</router-link>
       <router-link to="/Contact" >C</router-link>
     </div>
   </div>
@@ -39,15 +39,13 @@ export default {
     return{
       active:true,
       pdfPath: '/public/pdf/resume.pdf',
-    }
-  },
-  
 
   name: 'HelloWorld',
   props: {
     msg: String
   }
 }
+  }}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
