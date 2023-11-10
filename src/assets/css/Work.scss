@@ -253,9 +253,8 @@ a{
         .swiper-pagination {
             display: none;
         }
-        
         .worktotal{
-            width: 385px;
+            width: 345px;
             position: absolute;
             top: 25%;
             margin: 0 230px 0 0;
@@ -270,27 +269,26 @@ a{
                     @include sfont;
                 }
             }
-            .workskill{
-                margin: 0px auto;
-            }
-            .workplan{
-                margin: 0px auto;
-            }
-            .workskilltxt{
-                margin: 5px auto;
-            }
-            .workplantxt{
-                margin: 5px auto;
-            }
-            .workres{
-                margin: 0px auto;
-            }
-            .workplanrestxt{
-                margin: 0px auto ;
-            }
             .worktext{
-                margin: 5px auto ;
                 @include sfont;
+                .workskill{
+                    margin: 0px auto;
+                }
+                .workplan{
+                    margin: 0px auto;
+                }
+                .workskilltxt{
+                    margin: 0px auto;
+                }
+                .workplantxt{
+                    margin: 0px auto;
+                }
+                .workres{
+                    margin: 0px auto;
+                }
+                .workplanrestxt{
+                    margin: 0px auto;
+                }
             }
             .link{
             @include sfont;
