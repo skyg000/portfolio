@@ -26,9 +26,10 @@ a{
 .work{
     font-family: 'Pretendard-Regular';
     position: fixed;
-    margin: 50px 54px 0 100px;
+    margin: 80px 54px 0 100px;
     top: 5%;
     left: 30%;
+    width: calc(90% - 560px);
     text-align: left;
     h2{
         font-size: 64px;
@@ -38,13 +39,14 @@ a{
    
     .mySwiper{
         object-fit:contain;
-        width: 1130px;
         
     }
     .mySwiper2{
-        height: 685px;
+        height: 630px;
         object-fit:contain;
         margin-bottom: 10px;
+        width: 50%;
+        margin-left: 0;
     }
     .swiper-slide {
         text-align: left;
@@ -58,6 +60,9 @@ a{
     }
     .flex{
         display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        align-items: flex-start;
     }
     
     .swiper-slide img {
@@ -203,18 +208,116 @@ a{
         }
     }
 }
-/* === media 480 === */
+/* === media 780 === */
+@media (max-width: 780px) {
+    .work{
+        margin:120px 25px 0;
+        left: 0;
+        top: 20%;
+        height: 650px;
+        h2{
+            font-size: 20px;
+            margin: 0 auto;
+        }
+        .mySwiper{
+            width: 600px;
+            height: 100%;
+            object-fit:contain;
+        }
+        .mySwiper2{
+            height: 220px;
+        }
+        .swiper-slide {
+            width: 360px;
+            top: 0;
+            .w_img{
+                margin: 0 10px;
+            }
+            .toeat{
+                width: 350px;
+            }
+            .port{
+                width: 350px;
+                height: 150px;
+            }
+        }
+        .flex{
+            display: flex;
+        }
+        .swiper-slide img {
+            width: 400px;
+            height: 150px;
+        }
+        
+        .swiper-button-prev, .swiper-button-next, 
+        .swiper-button-prev::after, .swiper-button-next::after{
+            display: none;
+        }
+        .swiper-pagination {
+            display: none;
+        }
+        .worktotal{
+            width: 500px;
+            bottom: 35%;
+            margin: 0 auto;
+            right: 105px;
+            .worktitle{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                b{
+                    font-size: 1rem;
+                }
+                .produce{
+                    @include sfont;
+                }
+            }
+            .worktext{
+                @include sfont;
+                .workskill{
+                    margin: 0px auto;
+                }
+                .workplan{
+                    margin: 0px auto;
+                }
+                .workskilltxt{
+                    margin: 0px auto;
+                }
+                .workplantxt{
+                    margin: 0px auto;
+                }
+                .workres{
+                    margin: 0px auto;
+                }
+                .workplanrestxt{
+                    margin: 0px auto;
+                }
+            }
+            .link{
+            @include sfont;
+            .gitlink{
+                margin:5px 50px 5px 0;
+                
+            }
+            .workurl{
+                margin:5px 40px 5px 0;
+            }
+        }
+        }
+    }
+}
 
+/* === media 480 === */
 @media (max-width: 480px) {
     
     .work{
-        margin:90px 25px 0;
+        margin:115px 25px 0;
         left: 0;
         top: 15%;
         height: 650px;
         h2{
             font-size: 20px;
-            margin: 20px 0 5px 0px;
+            margin: 0 auto;
         }
         .mySwiper{
             width: 600px;
@@ -257,6 +360,7 @@ a{
             width: 345px;
             position: absolute;
             top: 25%;
+            right: 35px;
             margin: 0 230px 0 0;
             .worktitle{
                 display: flex;

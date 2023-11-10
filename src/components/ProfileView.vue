@@ -4,8 +4,7 @@
       <img alt="Myimg" src="../../public/img/16.jpg"/>
       <div class="media">
         <p class="job"> PUBLISHER & FRONTEND 
-          <!-- <img class="Vector" src="../../public/img/Vector.png"> -->
-          <a href="./Contact" class="airlink">
+          <a href="./contact" class="airlink">
             <img class="aircontact" src="../../public/img/air.png">
           </a>
       </p>

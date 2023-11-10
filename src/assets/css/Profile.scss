@@ -80,7 +80,7 @@ $mode-toggle-bg: #262626;
         a{
             border: 1px solid red;
             border-radius: 50%;
-            padding: 5px 8px;
+            padding: 5px 10px;
             margin-bottom: 50px;
             color: red;
             list-style: none;
@@ -185,12 +185,12 @@ $mode-toggle-bg: #262626;
             width:100%;
             border: 0.5px solid red;
             height: 0;
-            margin: 205px 0;
+            margin: 200px 0;
         }
         .route{
-            top: 25%;
-            left: 30%;
-            font-size: 25px;
+            top: 215px;
+            left: 180px;
+            font-size: 20px;
             flex-direction: row;
             justify-content: center;
             a{
@@ -255,7 +255,7 @@ $mode-toggle-bg: #262626;
             margin: 175px 0;
         }
         .route{
-            top: 20%;
+            top: 26%;
             left: 30%;
             font-size: 15px;
             flex-direction: row;
@@ -263,7 +263,7 @@ $mode-toggle-bg: #262626;
             a{
                 border: 1px solid red;
                 border-radius: 50%;
-                padding: 5px 8px;
+                padding: 5px 10px;
                 margin: 0 20px 0 0;
                 color: red;
                 list-style: none;
