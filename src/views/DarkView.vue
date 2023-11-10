@@ -3,7 +3,9 @@
         <div class="flex">
             <div class="mode-toggle" @click="modeToggle" :class="darkDark">
                 <div class="toggle">
-                    <div id="dark-mode" type="checkbox"></div>
+                    <div id="dark-mode" type="checkbox" class="dark-mode" >
+                        <img src="../../public/img/icons/bulb.png" class="bulb"/>
+                    </div>
                 </div>
             </div>
         </div>

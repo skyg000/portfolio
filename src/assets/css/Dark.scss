@@ -5,6 +5,16 @@ body {
     background-color: #fff;
     color: $dark;
     transition: background-color .2s ease, color .2s ease;
+     &.dark-mode {
+      background-color: lighten($dark, 5%);
+      color: white !important;
+      &.gitlink , h2, button,a{
+        color: white;
+        &:hover {
+            color: red;
+        }
+      }
+  }
 }
 
 
@@ -35,23 +45,17 @@ body {
     .toggle {
         position: absolute;
         top: 0%;
-        left: 0;
+        left: 3%;
         bottom: 0;
         margin: auto;
         width: 20px;
         height: 20px;
-        border-radius: 50%;
-        border: 3px solid transparent;
-        box-shadow: inset 0 0 0 2px #a5abba;
         overflow: hidden;
         transition: transform .5s ease;
         #dark-mode {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            border-radius: 50%;
-            background-color: #ff2b01;
+            .bulb{
+                width: 20px;
+            }
             &:before {
                 position: relative;
                 width: 100%;
@@ -67,8 +71,10 @@ body.dark-mode {
     .mode-toggle {
         background-color: lighten($mode-toggle-bg, 5%);
         .toggle {
+            
             transform: translateX(20px);
             #dark-mode {
+                
                 &:before {
                     border-radius: 50%;
                     width: 150%;
@@ -76,6 +82,11 @@ body.dark-mode {
                     left: 40%;
                     transform: translate(-10%, -40%), rotate(-35deg);
                 }
+            }
+            .dark-mode{
+                    .bulb{
+                        width: 20px;
+                    }
             }
         }
     }
@@ -87,6 +98,4 @@ body.dark-mode {
     left: 10px;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    height: 100%;
 }

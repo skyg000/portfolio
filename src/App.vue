@@ -31,10 +31,7 @@
 body {
   margin: 0 ;
   padding: 0;
-  &.dark-mode,h2,button, .gitlink{
-      background-color: lighten($dark, 5%);
-      color: white !important;
-  }
+ 
   > #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

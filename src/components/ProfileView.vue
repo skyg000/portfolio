@@ -10,7 +10,7 @@
           </a>
       </p>
       <p class="greetings"> 안녕하세요. <br>
-          <span class="v">저는 항상 화이팅 하는</span>  <br> Front-End Developer 홍석현입니다. <br>
+          <span class="v">저는 항상 화이팅 하는</span>  <br> <span class="ani">Front-End Developer </span><span class="v">홍석현</span>입니다<br>
           <a href="./pdf/resume.pdf" download="resume.pdf">
           <button class="pdf"> 이력서 PDF 
             <img class="down" src="../../public/img/icons/download.png"/>

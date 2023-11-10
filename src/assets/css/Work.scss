@@ -35,9 +35,11 @@ a{
         margin: 50px 0 20px 0px;
         
     }
+   
     .mySwiper{
-        width: 1130px;
         object-fit:contain;
+        width: 1130px;
+        
     }
     .mySwiper2{
         height: 685px;
@@ -50,7 +52,8 @@ a{
         justify-content: center;
         align-items: center; */
         .w_img{
-            margin: 0 auto;
+            width: 250px;
+            margin: 0 120px;
         }
     }
     .flex{
@@ -58,18 +61,24 @@ a{
     }
     
     .swiper-slide img {
+        width: 500px;
         display: block;
         object-fit: contain;
     }
-    
+    /* .swiper-slide swiper-slide-active .swiper-slide swiper-slide-next{
+        width: 0;
+    } */
     .swiper-button-prev, .swiper-button-next, 
     .swiper-button-prev::after, .swiper-button-next::after{
         color: rgb(255, 0, 0);
         font-size: 20px;
         font-weight: bold;
         bottom: 10%;
+        top: 97%;
     }
     .worktotal{
+        position: absolute;
+        right: 5%;
         width: 500px;
         margin-left: 20px;
         .worktitle{
@@ -80,10 +89,6 @@ a{
             .produce{
                 margin: 5px 0;
                 font-size: 20px;
-            }
-            .workday{
-                margin: 10px auto;
-                @include font;
             }
         }
         .worktext{
@@ -159,16 +164,12 @@ a{
         .flex{
             display: flex;
         }
-      
-        
         .swiper-slide img {
             width: 225px;
         }
         .swiper-button-prev, .swiper-button-next {
             top: 97%;
         }
-        
-        
         .worktotal{
             width: 230px;
             .worktext{
