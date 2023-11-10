@@ -26,9 +26,9 @@ a{
 .work{
     font-family: 'Pretendard-Regular';
     position: fixed;
-    margin: 80px 54px 0 100px;
+    margin: 80px 0 0 50px;
     top: 5%;
-    left: 30%;
+    left: 35%;
     width: calc(90% - 560px);
     text-align: left;
     h2{
@@ -112,6 +112,7 @@ a{
             }
             .workplantxt{
                 margin: 5px auto 10px;
+                line-height: 1.5;
             }
             .workres{
                 margin: 3px auto;
@@ -144,14 +145,14 @@ a{
         margin: 60px 54px 0 100px;
         h2{
             font-size: 40px;
-            margin: 50px 0 20px 0px;
+            margin: 50px 35px 0;
         }
         .mySwiper{
             width: 600px;
             object-fit:contain;
         }
         .mySwiper2{
-            height: 550px;
+            height: 585px;
         }
         .swiper-slide {
             width: 360px;

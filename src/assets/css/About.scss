@@ -16,6 +16,7 @@
     margin: 80px 0 0 50px;
     top: 5%;
     left: 35%;
+    width: calc(90% - 560px);
     text-align: left;
     h2{
         font-size: 64px;
@@ -69,7 +70,8 @@
 /* === media 1024 === */
 @media (max-width: 1024px) {
     .about{
-        margin: 90px 0 0 50px;
+        width: calc(90% - 350px);
+        margin: 90px 90px;
         h2{
             font-size: 40px;
         }
