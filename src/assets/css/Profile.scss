@@ -90,11 +90,59 @@ $mode-toggle-bg: #262626;
             margin: 0;
         }
         &.router-link-exact-active {
-            background-color: yellow;
+            background-color: rgb(255, 0, 247);
+            color: black;
             }
         }
     }
 
+/* ===media 1024 === */
+@media (max-width: 1600px) {
+    .home {
+        width: 350px;
+        padding-top: 67px;
+        .p_info {
+            position: absolute;
+            left: 0;
+            margin: 100px 25px;
+            img {
+                width: 250px;
+            }
+            .job {
+                font-size: 20px;
+            .airlink{
+                .aircontact{
+                    width: 20px;
+                    margin-left: 10px;
+                }
+            }
+            .Vector{
+                width: 20px;
+                margin-left: 10px;
+            }
+            }
+            .greetings {
+                text-align: left;
+                font-size: 20px;
+            }
+            .pdf{
+                font-size: 15px;
+                margin-top: 0px;
+                }
+            .down{
+                width: 24px;
+            }
+        }
+        .route{
+            top: 30%;
+            left: 330px;
+            font-size: 24px;
+            &.router-link-exact-active {
+                background-color: yellow;
+                }
+        }
+    }
+}
 /* ===media 1024 === */
 @media (max-width: 1024px) {
     .home {

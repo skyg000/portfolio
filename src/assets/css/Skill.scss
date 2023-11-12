@@ -32,6 +32,29 @@
         }
     }
 }
+/* === media 1600 === */
+@media (max-width: 1600px) {
+    .skill{
+        width: calc(90% - 350px);
+        margin: 75px 130px;
+        h2{
+            font-size: 40px;
+            margin: 50px 0 0 35px;
+        }
+        .skill_icon{
+            .skill_img{
+                img{
+                    width: 70px;
+                    height: 70px;
+                    margin: 10px 30px 0px;
+                }
+                .s_count{
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+}
 /* === media 1024 === */
 @media (max-width: 1024px) {
     .skill{
@@ -57,9 +80,10 @@
 /* === media 780 === */
 @media (max-width: 780px) {
     .skill{
+        width: calc(100% - 30px);
         left: 0;
         top: 25%;
-        margin:90px 25px 0 0;
+        margin:90px 30px;
         h2{
             font-size: 30px;
             margin: 0px 0 0 20px;
@@ -81,8 +105,9 @@
 /* === media 480 === */
 @media (max-width: 480px) {
     .skill{
+        width: calc(100% - 30px);
         left: 0;
-        top: 20%;
+        top: 21%;
         margin:90px 25px 0 0;
         h2{
             font-size: 20px;

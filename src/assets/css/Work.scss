@@ -138,6 +138,88 @@ a{
         }
     }
 }
+/* === media 1600 === */
+@media (max-width: 1600px) {
+    .work{
+        width: calc(90% - 350px);
+        margin: 75px 55px;
+        h2{
+            font-size: 40px;
+            margin: 50px 35px 0;
+        }
+        .mySwiper{
+            width: 600px;
+            object-fit:contain;
+        }
+        .mySwiper2{
+            height: 585px;
+        }
+        .swiper-slide {
+            width: 360px;
+            
+            .w_img{
+                margin: 0 auto;
+            }
+            .toeat{
+                width: 350px;
+            }
+            .port{
+                width: 350px;
+                height: 250px;
+            }
+        }
+        .flex{
+            display: flex;
+        }
+        .swiper-slide img {
+            width: 225px;
+        }
+        .swiper-button-prev, .swiper-button-next {
+            top: 97%;
+        }
+        .worktotal{
+            width: 260px;
+            .worktitle{
+                text-align: left;
+                b{
+                    font-size: 20px;
+                }
+                .produce{
+                    margin: 5px 0;
+                    font-size: 15px;
+                }
+            }
+            .worktext{
+                @include sfont;
+                .workskill{
+                    margin: 3px auto;
+                    font-weight: bold;
+                }
+                .workplan{
+                    margin: 3px auto;
+                    font-weight: bold;
+                }
+                .workskilltxt{
+                    margin: 5px auto 10px;
+                    color: /* #0afe06 */ red;
+                }
+                .workplantxt{
+                    margin: 5px auto 10px;
+                }
+                .workres{
+                    margin: 3px auto;
+                    font-weight: bold;
+                }
+                .workplanrestxt{
+                    margin: 5px auto ;
+                }
+            }
+            .link{
+                @include sfont;
+            }
+        }
+    }
+}
 /* === media 1024 === */
 @media (max-width: 1024px) {
     .work{
@@ -223,10 +305,10 @@ a{
 /* === media 780 === */
 @media (max-width: 780px) {
     .work{
-        width: calc(100%);
+        width: calc(100% - 30px);
         margin:120px 25px 0;
         left: 0;
-        top: 20%;
+        top: 22%;
         height: 650px;
         h2{
             font-size: 30px;
@@ -326,7 +408,7 @@ a{
     .work{
         margin:115px 25px 0;
         left: 0;
-        top: 15%;
+        top: 18%;
         height: 650px;
         h2{
             font-size: 20px;
