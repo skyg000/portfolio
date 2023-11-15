@@ -21,6 +21,7 @@ $mode-toggle-bg: #262626;
         margin: 100px 80px;
 
         img {
+            opacity: 0.7;
             border-radius: 50%;
             width: 380px;
         }
@@ -46,35 +47,27 @@ $mode-toggle-bg: #262626;
         .greetings {
             text-align: left;
             font-size: 24px;
-            .v,p{
+            .v{
                 text-emphasis: '♥' rgb(255, 47, 0);
             }
-            .aa{
                 .ani{
                     display: flex;
                     align-items: baseline;
                     margin-right: 15px;
                 }
                 p{
-                    transform: translateY(50%);
-                    animation-duration: 1s;
+                    transform: translateY(1000%);
+                    animation-duration: 1.5s;
                     animation-name: p;
                     animation-fill-mode: forwards;
                 }
-                p:nth-child(1) {
-                    animation-delay: .5s;
-                }
-    
-                p:nth-child(2) {
-                    animation-delay: 1s;
-                }
-    
+                
                 @keyframes p {
                     100% {
                         transform: translateY(0%);
                     }
                 }
-            }
+            
         }
         .pdf{
             cursor: pointer;
@@ -151,32 +144,18 @@ $mode-toggle-bg: #262626;
             .greetings {
                 text-align: left;
                 font-size: 20px;
-                .aa{
-                    .ani{
-                        display: flex;
-                        align-items: baseline;
-                        margin-right: 15px;
-                    }
                     p{
+                        margin: 0;
                         transform: translateY(50%);
                         animation-duration: 1s;
                         animation-name: p;
                         animation-fill-mode: forwards;
                     }
-                    p:nth-child(1) {
-                        animation-delay: .5s;
-                    }
-        
-                    p:nth-child(2) {
-                        animation-delay: 1s;
-                    }
-        
                     @keyframes p {
                         100% {
                             transform: translateY(0%);
                         }
                     }
-                }
             }
             .pdf{
                 font-size: 15px;
@@ -224,32 +203,18 @@ $mode-toggle-bg: #262626;
             .greetings {
                 text-align: left;
                 font-size: 20px;
-                .aa{
-                    .ani{
-                        display: flex;
-                        align-items: baseline;
-                        margin-right: 15px;
-                    }
                     p{
-                        transform: translateY(50%);
-                        animation-duration: 1s;
+                        margin: 0;
+                        transform: translateY(1000%);
+                        animation-duration: 1.5s;
                         animation-name: p;
                         animation-fill-mode: forwards;
                     }
-                    p:nth-child(1) {
-                        animation-delay: .5s;
-                    }
-        
-                    p:nth-child(2) {
-                        animation-delay: 1s;
-                    }
-        
                     @keyframes p {
                         100% {
                             transform: translateY(0%);
                         }
                     }
-                }
             }
             .pdf{
                 font-size: 15px;
@@ -302,32 +267,18 @@ $mode-toggle-bg: #262626;
                 .greetings {
                     font-size: 15px;
                     margin-top: 5px;
-                    .aa{
-                        .ani{
-                            display: flex;
-                            align-items: baseline;
-                            margin-right: 15px;
-                        }
                         p{
-                            transform: translateY(50%);
-                            animation-duration: 1s;
+                            margin: 0;
+                            transform: translateX(100%);
+                            animation-duration: 1.5s;
                             animation-name: p;
                             animation-fill-mode: forwards;
                         }
-                        p:nth-child(1) {
-                            animation-delay: .5s;
-                        }
-            
-                        p:nth-child(2) {
-                            animation-delay: 1s;
-                        }
-            
                         @keyframes p {
                             100% {
                                 transform: translateY(0%);
                             }
                         }
-                    }
                 }
                 .pdf{
                     font-size: 13px;
@@ -395,33 +346,18 @@ $mode-toggle-bg: #262626;
                 .greetings {
                     font-size: 15px;
                     margin-top: 5px;
-                    .aa{
-                        display: flex;
-                        .ani{
-                            display: flex;
-                            align-items: baseline;
-                            margin-right: 15px;
-                        }
                         p{
-                            transform: translateY(50%);
+                            margin: 0;
+                            transform: translateX(500%);
                             animation-duration: 1s;
                             animation-name: p;
                             animation-fill-mode: forwards;
                         }
-                        p:nth-child(1) {
-                            animation-delay: .5s;
-                        }
-            
-                        p:nth-child(2) {
-                            animation-delay: 1s;
-                        }
-            
                         @keyframes p {
                             100% {
                                 transform: translateY(0%);
                             }
                         }
-                    }
                 }
                 .pdf{
                     font-size: 13px;

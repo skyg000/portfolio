@@ -3,49 +3,24 @@
     <h2> SKILL </h2>
     <div class="skill_icon">
       <figure class="skill_img">
-        <div class="s_count">
+        <div class="use">
+          <h3>활용 할 줄 알아요</h3>
           <img src="../../public/img/icons/skillicon/html.png" />
-          <p>{{ skillpoint.html }}%</p>
-        </div>
-        <div class="s_count">
           <img src="../../public/img/icons/skillicon/css.png" />
-          <p>{{ skillpoint.css }}%</p>
-        </div>
-        <div class="s_count">
           <img src="../../public/img/icons/skillicon/scss.png" />
-          <p>{{ skillpoint.scss }}%</p>
-        </div>
-        <div class="s_count">
-          <img src="../../public/img/icons/skillicon/jscript.png" /> <br>
-          <p>{{ skillpoint.js }}%</p>
-        </div>
-        <div class="s_count">
+          <img src="../../public/img/icons/skillicon/jscript.png" />
           <img src="../../public/img/icons/skillicon/react.png" />
-          <p>{{ skillpoint.react }}%</p>
-        </div>
-        <div class="s_count">
-          <img src="../../public/img/icons/skillicon/vue.png" />
-          <p>{{ skillpoint.vue }}%</p>
-        </div>
-        <div class="s_count">
-          <img src="../../public/img/icons/skillicon/nextjs.png" /> <br>
-          <p>{{ skillpoint.next }}%</p>
-        </div>
-        <div class="s_count">
-          <img src="../../public/img/icons/skillicon/mysql.png" />
-          <p>{{ skillpoint.mysql }}%</p>
-        </div>
-        <div class="s_count">
-          <img src="../../public/img/icons/skillicon/maria.png" />
-          <p>{{ skillpoint.maria }}%</p>
-        </div>
-        <div class="s_count">
-          <img src="../../public/img/icons/skillicon/mongo.png" /> <br>
-          <p>{{ skillpoint.mongo }}%</p>
-        </div>
-        <div class="s_count">
+          <img src="../../public/img/icons/skillicon/nextjs.png" /> 
+          <img src="../../public/img/icons/skillicon/figma1.png" /> 
           <img src="../../public/img/icons/skillicon/github.png" />
-          <p>{{ skillpoint.git }}%</p>
+          <img src="../../public/img/icons/skillicon/vercel.jpg" />
+        </div>
+        <div class="lowuse">
+          <h3> 활용해 봤어요</h3>
+          <img src="../../public/img/icons/skillicon/vue.png" />
+          <img src="../../public/img/icons/skillicon/mysql.png" />
+          <img src="../../public/img/icons/skillicon/maria.png" />
+          <img src="../../public/img/icons/skillicon/mongo.png" /> 
         </div>
       </figure>
     </div>

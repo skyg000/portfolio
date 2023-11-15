@@ -13,7 +13,9 @@
     </p>
     <p class="cimg3">
       <!-- <img src="../../public/img/icons/contacticon/git.png" /> -->
+      <a href="https://github.com/skyg000" class="git" target="_blank">
       GitHub : https://github.com/skyg000
+    </a>
     </p>
   </div>
 </template>

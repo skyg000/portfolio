@@ -5,6 +5,10 @@
     left: 30%;
     width: calc(90% - 560px);
     text-align: left;
+    transform: translateX(100%);
+    animation-duration: 2.5s;
+    animation-name: about;
+    animation-fill-mode: forwards;
     h2{
         font-size: 64px;
         margin: 50px 0 0 90px;
@@ -14,10 +18,14 @@
             display: flex;
             flex-wrap: wrap;
             margin: 0;
+            h3{
+                margin-left: 90px;
+                text-decoration:solid;
+            }
             img{
                 width: 100px;
                 height: 110px;
-                margin: 20px 80px 0px 80px;
+                margin: 0px 80px 0px 80px;
             }
             .s_count{
                 margin-right: 20px;

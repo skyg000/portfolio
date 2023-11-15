@@ -8,16 +8,14 @@
             <img class="aircontact" src="../../public/img/air.png">
           </a>
       </p>
-      <div class="greetings"> 안녕하세요. <br>
-          <span class="v">저는 항상 화이팅 하는</span>  <br> 
-          <span class="aa">Front-End Developer 
-         <div class="ani">
-          <p>홍</p>
-          <p>석</p>
-          <p>현</p>
-          입니다<br>
-         </div> 
-        </span>
+      <div class="greetings"> 
+          <p>안녕하세요. <br>
+            <span class="v">항상 화이팅 하는</span>  <br> 
+            Front-End Developer 
+            <span class="v">홍석현 </span>
+            입니다.
+          </p>
+          
           <a href="./pdf/resume.pdf" download="resume.pdf">
           <button class="pdf"> 이력서 PDF 
             <img class="down" src="../../public/img/icons/download.jpg"/>
