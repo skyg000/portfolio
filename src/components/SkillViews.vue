@@ -13,7 +13,6 @@
           <img src="../../public/img/icons/skillicon/nextjs.png" /> 
           <img src="../../public/img/icons/skillicon/figma1.png" /> 
           <img src="../../public/img/icons/skillicon/github.png" />
-          <img src="../../public/img/icons/skillicon/vercel.jpg" />
         </div>
         <div class="lowuse">
           <h3> 활용해 봤어요</h3>

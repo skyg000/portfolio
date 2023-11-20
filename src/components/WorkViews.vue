@@ -118,9 +118,9 @@
                     </div>
                     <div class="link">
                         <p class="gitlink"> <a href="https://github.com/skyg000/b3o2" target="_blank">
-                            GitHub 링크 : https://github.com/skyg000/b3o2</a> </p>
+                            GitHub 링크 <br> https://github.com/skyg000/b3o2</a> </p>
                         <p class="workurl"> <a href="https://b3o2.vercel.app/" target="_blank">
-                            배포 링크 : https://b3o2.vercel.app/</a> </p>
+                            배포 링크 <br>  https://b3o2.vercel.app/</a> </p>
                     </div>
                 </div>
             </swiper-slide>
@@ -153,9 +153,9 @@
                     </div>
                     <div class="link">
                         <p class="gitlink"> <a href="https://github.com/skyg000/portfolio" target="_blank">
-                            GitHub 링크 : https://github.com/skyg000/portfolio</a> </p>
-                        <p class="workurl"> <a href="https://skyg000.github.io/ToEat/" target="_blank">
-                            배포 링크 : https://skyg000.github.io/ToEat/</a> </p>
+                            GitHub 링크 <br> https://github.com/skyg000/portfolio</a> </p>
+                        <p class="workurl"> <a href="https://hshportfolio.netlify.app/" target="_blank">
+                            배포 링크 <br> https://hshportfolio.netlify.app/</a> </p>
                     </div>
                 </div>
             </swiper-slide>

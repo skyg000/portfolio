@@ -19,7 +19,7 @@
     width: calc(90% - 560px);
     text-align: left;
     transform: translateX(100%);
-    animation-duration: 2.5s;
+    animation-duration: 2s;
     animation-name: about;
     animation-fill-mode: forwards;
     h2{
@@ -37,7 +37,7 @@
     }
     .edu{
         h3{
-            
+            margin: 35px auto 0
         }
         ul{
             list-style: none;
@@ -52,6 +52,9 @@
         }
     }
     .cer{
+        h3{
+            margin: 35px auto 0
+        }
         ul{
             list-style: none;
             padding: 0;
@@ -85,7 +88,7 @@
             font-size: 40px;
         }
         .introduce{
-            font-size: 15px;
+            @include font();
             line-height: 2;
             .txtcolor{
                 color: red;
@@ -101,7 +104,7 @@
                     margin: 0;
                     p{
                         margin-top: 0;
-                        font-size: 15px;
+                        @include font();
                     }
                 }
             }
@@ -114,7 +117,7 @@
                     margin: 0;
                     p{
                         margin-top: 0;
-                        font-size: 15px;
+                        @include font();
                     }
                 }
             }

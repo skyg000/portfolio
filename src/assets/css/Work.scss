@@ -32,7 +32,7 @@ a{
     width: calc(90% - 560px);
     text-align: left;
     transform: translateX(100%);
-    animation-duration: 2.5s;
+    animation-duration: 2s;
     animation-name: about;
     animation-fill-mode: forwards;
     h2{
@@ -43,13 +43,13 @@ a{
    
     .mySwiper{
         object-fit:contain;
-        
+        margin-left: 0;
     }
     .mySwiper2{
         height: 630px;
         object-fit:contain;
         margin-bottom: 10px;
-        width: 50%;
+        width: 25%;
         margin-left: 0;
     }
     .swiper-slide {
@@ -59,7 +59,7 @@ a{
         align-items: center; */
         .w_img{
             width: 250px;
-            margin: 0 120px;
+            margin: 0 30px;
         }
     }
     .flex{
@@ -70,7 +70,7 @@ a{
     }
     
     .swiper-slide img {
-        width: 500px;
+        width: 260px;
         display: block;
         object-fit: contain;
     }
@@ -87,8 +87,8 @@ a{
     }
     .worktotal{
         position: absolute;
-        right: 5%;
-        width: 500px;
+        right: 33%;
+        width: 470px;
         margin-left: 20px;
         .worktitle{
             text-align: left;
@@ -152,7 +152,7 @@ a{
             margin: 50px 35px 0;
         }
         .mySwiper{
-            width: 600px;
+            width: 700px;
             object-fit:contain;
         }
         .mySwiper2{
@@ -238,7 +238,8 @@ a{
             object-fit:contain;
         }
         .mySwiper2{
-            height: 585px;
+            width: 60%;
+            height: 300px;
         }
         .swiper-slide {
             width: 360px;
@@ -255,16 +256,22 @@ a{
             }
         }
         .flex{
-            display: flex;
+            display: block;
         }
         .swiper-slide img {
             width: 225px;
         }
         .swiper-button-prev, .swiper-button-next {
-            top: 97%;
+            top: 98%;
+            right: 190px;
+        }
+        .swiper-pagination {
+            left: calc(90% - 630px);
         }
         .worktotal{
-            width: 260px;
+            width: 345px;
+            position: inherit;
+            margin-left: 150px;
             .worktitle{
                 text-align: left;
                 b{
@@ -356,8 +363,9 @@ a{
             display: none;
         }
         .worktotal{
+            position: absolute;
             width: 500px;
-            bottom: 35%;
+            bottom: 25%;
             margin: 0 auto;
             right: 105px;
             .worktitle{
