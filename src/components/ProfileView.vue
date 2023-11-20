@@ -16,7 +16,7 @@
           <p>안녕하세요. <br>
             <span class="v">항상 화이팅 하는</span> <br>
             Front-End Developer
-            <span class="v">홍석현 </span>
+            <span class="v">홍석현</span>
             입니다.
           </p>
         </div>
