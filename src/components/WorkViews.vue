@@ -162,6 +162,40 @@
             </swiper-slide>
             <swiper-slide class="s_flex">
                 <swiper class="mySwiper2"   :loop='true' :autoplay="{delay: 3000,disableOnInteraction: false,}" :modules="modules">
+                    <swiper-slide><img src="../../public/img/work/movie/main.png" class="toeat"></swiper-slide>
+                    <swiper-slide><img src="../../public/img/work/movie/detail.png" class="toeat"></swiper-slide>
+                    <swiper-slide><img src="../../public/img/work/movie/serch.png" class="toeat"></swiper-slide>
+                    <swiper-slide><img src="../../public/img/work/movie/list.png" class="toeat"></swiper-slide>
+                </swiper>
+                <div class="worktotal">
+                    <div class="worktitle">
+                        <b> MOVIE</b>
+                        <p class="produce">제작 : 2023. 08월</p>
+                    </div>
+                    <div class="worktext">
+                        <p class="workskill"> 주요 기술 </p>
+                        <hr>
+                        <p class="workskilltxt"> HTML / SCSS / SCRIPT / REACT </p>
+                        <p class="workplan"> 기획 의도 </p>
+                        <hr>
+                        <p class="workplantxt">
+                            외부 API를 통해 영화 및 TV프로그램 정보 사이트.</p>
+                        <p class="workres"> 담당업무 </p>
+                        <hr>
+                        <p class="workplanrestxt">
+                            전체페이지    
+                        </p>
+                    </div>
+                    <div class="link">
+                        <p class="gitlink"> <a href="https://github.com/skyg000/react-movie.git" target="_blank">GitHub 링크 <br>
+                            https://github.com/skyg000/react-movie.git</a> </p>
+                        <p class="workurl"> <a href="https://react-movie-ten-mu.vercel.app/" target="_blank">배포 링크 <br>
+                            https://react-movie-ten-mu.vercel.app/</a> </p>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide class="s_flex">
+                <swiper class="mySwiper2"   :loop='true' :autoplay="{delay: 3000,disableOnInteraction: false,}" :modules="modules">
                     <swiper-slide><img src="../../public/img/work/clone/main.png" class="toeat"></swiper-slide>
                     <swiper-slide><img src="../../public/img/work/clone/about.png" class="toeat"></swiper-slide>
                     <swiper-slide><img src="../../public/img/work/clone/artist.png" class="toeat"></swiper-slide>
