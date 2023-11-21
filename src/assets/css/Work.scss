@@ -37,7 +37,7 @@ a{
     animation-fill-mode: forwards;
     h2{
         font-size: 64px;
-        margin: 50px 0 20px 0px;
+        margin: 50px 0 50px 0px;
         
     }
    
@@ -49,7 +49,7 @@ a{
         height: 630px;
         object-fit:contain;
         margin-bottom: 10px;
-        width: 25%;
+        width: 35%;
         margin-left: 0;
     }
     .swiper-slide {
@@ -62,7 +62,7 @@ a{
             margin: 0 30px;
         }
     }
-    .flex{
+    .s_flex{
         display: flex;
         justify-content: flex-start;
         flex-direction: row;
@@ -87,7 +87,7 @@ a{
     }
     .worktotal{
         position: absolute;
-        right: 33%;
+        right: 25%;
         width: 470px;
         margin-left: 20px;
         .worktitle{
@@ -168,11 +168,11 @@ a{
                 width: 350px;
             }
             .port{
-                width: 350px;
-                height: 250px;
+                width: 170px;
+                height: 325px;
             }
         }
-        .flex{
+        .s_flex{
             display: flex;
         }
         .swiper-slide img {
@@ -255,7 +255,7 @@ a{
                 height: 250px;
             }
         }
-        .flex{
+        .s_flex{
             display: block;
         }
         .swiper-slide img {
@@ -271,7 +271,7 @@ a{
         .worktotal{
             width: 345px;
             position: inherit;
-            margin-left: 150px;
+            margin-left: 220px;
             .worktitle{
                 text-align: left;
                 b{
@@ -347,7 +347,7 @@ a{
                 height: 150px;
             }
         }
-        .flex{
+        .s_flex{
             display: flex;
         }
         .swiper-slide img {
@@ -367,7 +367,7 @@ a{
             width: 500px;
             bottom: 25%;
             margin: 0 auto;
-            right: 105px;
+            right: 90px;
             .worktitle{
                 display: flex;
                 justify-content: space-between;
@@ -448,7 +448,7 @@ a{
                 height: 150px;
             }
         }
-        .flex{
+        .s_flex{
             display: flex;
         }
         .swiper-slide img {
@@ -468,7 +468,7 @@ a{
             position: absolute;
             top: 25%;
             right: 35px;
-            margin: 0 230px 0 0;
+            margin: 0 215px 0 0;
             .worktitle{
                 display: flex;
                 justify-content: space-between;
