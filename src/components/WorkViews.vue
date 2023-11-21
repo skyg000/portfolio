@@ -40,7 +40,7 @@
                 </div>
             </swiper-slide>
             <swiper-slide class="s_flex">
-                <swiper class="mySwiper2" :autoplay="{delay: 2000,disableOnInteraction: false,}" :loop='true'  :modules="modules">
+                <swiper class="mySwiper2" :autoplay="{delay: 3000,disableOnInteraction: false,}" :loop='true'  :modules="modules">
                     <swiper-slide><img src="../../public/img/work/b3o2/main.png" class="w_img"></swiper-slide>
                     <swiper-slide><img src="../../public/img/work/b3o2/join.png" class="w_img"></swiper-slide>
                     <swiper-slide><img src="../../public/img/work/b3o2/check.png" class="w_img"></swiper-slide>
@@ -84,7 +84,7 @@
                 </div>
             </swiper-slide>
             <swiper-slide class="s_flex">
-                <swiper class="mySwiper2" :autoplay="{delay: 200000,disableOnInteraction: false,}" :loop='true'  :modules="modules">
+                <swiper class="mySwiper2" :autoplay="{delay: 3000,disableOnInteraction: false,}" :loop='true'  :modules="modules">
                     <swiper-slide><img src="../../public/img/work/calendar/calendar.png" class="w_img"></swiper-slide>
                     <swiper-slide><img src="../../public/img/work/calendar/main.png" class="w_img"></swiper-slide>
                     <swiper-slide><img src="../../public/img/work/calendar/diary.png" class="w_img"></swiper-slide>
@@ -119,8 +119,9 @@
                     </div>
                 </div>
             </swiper-slide>
+           
             <swiper-slide class="s_flex">
-                <swiper class="mySwiper2"   :loop='true' :autoplay="{delay: 200000,disableOnInteraction: false,}" :modules="modules">
+                <swiper class="mySwiper2"   :loop='true' :autoplay="{delay: 3000,disableOnInteraction: false,}" :modules="modules">
                     <swiper-slide><img src="../../public/img/work/toeat/toeat.png" class="toeat"></swiper-slide>
                     <swiper-slide><img src="../../public/img/work/toeat/cours.png" class="toeat"></swiper-slide>
                     <swiper-slide><img src="../../public/img/work/toeat/watch.png" class="toeat"></swiper-slide>
@@ -156,6 +157,40 @@
                                 https://github.com/skyg000/ToEat</a> </p>
                         <p class="workurl"> <a href="https://skyg000.github.io/ToEat/" target="_blank">배포 링크 <br>
                                 https://skyg000.github.io/ToEat/</a> </p>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide class="s_flex">
+                <swiper class="mySwiper2"   :loop='true' :autoplay="{delay: 3000,disableOnInteraction: false,}" :modules="modules">
+                    <swiper-slide><img src="../../public/img/work/clone/main.png" class="toeat"></swiper-slide>
+                    <swiper-slide><img src="../../public/img/work/clone/about.png" class="toeat"></swiper-slide>
+                    <swiper-slide><img src="../../public/img/work/clone/artist.png" class="toeat"></swiper-slide>
+                    <swiper-slide><img src="../../public/img/work/clone/contact.png" class="toeat"></swiper-slide>
+                </swiper>
+                <div class="worktotal">
+                    <div class="worktitle">
+                        <b> 안테나 뮤직 (클론 코딩)</b>
+                        <p class="produce">제작 : 2023. 06월</p>
+                    </div>
+                    <div class="worktext">
+                        <p class="workskill"> 주요 기술 </p>
+                        <hr>
+                        <p class="workskilltxt"> HTML / SCSS / SCRIPT </p>
+                        <p class="workplan"> 기획 의도 </p>
+                        <hr>
+                        <p class="workplantxt">
+                            기존 사이트를 유사한 기술(스택)들로 구현해본 프로젝트 입니다.</p>
+                        <p class="workres"> 담당업무 </p>
+                        <hr>
+                        <p class="workplanrestxt">
+                            전체페이지    
+                        </p>
+                    </div>
+                    <div class="link">
+                        <p class="gitlink"> <a href="https://github.com/skyg000/git_project.git" target="_blank">GitHub 링크 <br>
+                            https://github.com/skyg000/git_project.git</a> </p>
+                        <p class="workurl"> <a href="https://skyg000.github.io/git_project/clone_p/" target="_blank">배포 링크 <br>
+                                https://skyg000.github.io/git_project/clone_p/</a> </p>
                     </div>
                 </div>
             </swiper-slide>
