@@ -32,7 +32,6 @@ body {
     border: 0;
     border-radius: 24px;
     outline: 0;
-    border: 1px solid red;
     overflow: hidden;
     cursor: pointer;
     z-index: 2;
@@ -40,7 +39,6 @@ body {
     -webkit-touch-callout: none;
     appearance: none;
     transition: background-color .5s ease;
-    
     .toggle {
         position: absolute;
         top: 0%;
@@ -69,6 +67,7 @@ body {
 body.dark-mode {
     .mode-toggle {
         background-color: lighten($mode-toggle-bg, 5%);
+        border: 1px solid red;
         .toggle {
             
             transform: translateX(20px);
