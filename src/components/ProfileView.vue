@@ -5,10 +5,10 @@
       <div class="title">
         <a href="/"><h2> HSH portfolio </h2></a>  
         </div>
-      <img alt="Myimg" src="../../public/img/16.jpg" />
+      <img alt="Myimg" src="../../public/img/myimg1.jpg" />
       <div class="media">
         <p class="job"> PUBLISHER & FRONTEND
-          <a href="./Contact" class="airlink">
+          <a href="/Contact" class="airlink">
             <img class="aircontact" src="../../public/img/air.png">
           </a>
         </p>
