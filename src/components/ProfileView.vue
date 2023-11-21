@@ -8,9 +8,11 @@
       <img alt="Myimg" src="../../public/img/myimg1.jpg" />
       <div class="media">
         <p class="job"> PUBLISHER & FRONTEND
-          <a href="./Contact" class="airlink">
+          <router-link to="/Contact" class="airlink">
             <img class="aircontact" src="../../public/img/air.png">
-          </a>
+          </router-link>
+         <!--  <a href="./Contact" class="airlink">
+          </a> -->
         </p>
         <div class="greetings">
           <p>안녕하세요. <br>
@@ -65,11 +67,4 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import '/src/assets/css/Profile.scss';
-
-a {
-  &.router-link-exact-active {
-    background-color: #42b983;
-  }
-
-}
 </style>
