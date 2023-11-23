@@ -7,7 +7,7 @@
         </div>
       <img alt="Myimg" src="../../public/img/myimg1.jpg" />
       <div class="media">
-        <p class="job"> PUBLISHER & FRONTEND
+        <p class="job"> FRONT-END Developer
           <router-link to="/Contact" class="airlink">
             <img class="aircontact" src="../../public/img/air.png">
           </router-link>
