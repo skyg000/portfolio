@@ -182,7 +182,8 @@ $mode-toggle-bg: #262626;
             left: 330px;
             font-size: 24px;
             &.router-link-exact-active {
-                background-color: yellow;
+                background-color: pink;
+                color: black;
                 }
         }
     }
@@ -240,7 +241,8 @@ $mode-toggle-bg: #262626;
             left: 330px;
             font-size: 24px;
             &.router-link-exact-active {
-                background-color: yellow;
+                background-color: pink;
+                color: black;
                 }
         }
     }
@@ -332,7 +334,8 @@ $mode-toggle-bg: #262626;
                 text-decoration: none;
                 background-color: white;
                 &.router-link-exact-active {
-                    background-color: yellow;
+                    background-color: pink;
+                    color: black;
                     }
             }
     }
@@ -423,7 +426,8 @@ $mode-toggle-bg: #262626;
                 background-color: white;
             }
             &.router-link-exact-active {
-                background-color: yellow;
+                background-color: pink;
+                color: black;
                 }
     }
 }

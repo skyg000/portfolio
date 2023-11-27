@@ -37,7 +37,7 @@ a{
     animation-fill-mode: forwards;
     h2{
         font-size: 64px;
-        margin: 50px 0 50px 0px;
+        margin: 0px 35px 50px;
         
     }
    
@@ -54,9 +54,9 @@ a{
     }
     .swiper-slide {
         text-align: left;
-        /* display: flex;
+        display: flex;
         justify-content: center;
-        align-items: center; */
+        align-items: flex-start;
         .w_img{
             width: 250px;
             margin: 0 30px;
@@ -149,7 +149,7 @@ a{
         margin: 75px 55px;
         h2{
             font-size: 40px;
-            margin: 50px 35px 0;
+            margin: 0px 35px 50px;
         }
         .mySwiper{
             width: 700px;
@@ -164,8 +164,12 @@ a{
             .w_img{
                 margin: 0 auto;
             }
+            .r_calendar{
+                margin: 0 auto;
+                width: 245px;
+            }
             .toeat{
-                width: 350px;
+                width: 230px;
             }
             .port{
                 width: 170px;
@@ -175,11 +179,9 @@ a{
         .s_flex{
             display: flex;
         }
-        .swiper-slide img {
-            width: 225px;
-        }
+        
         .swiper-button-prev, .swiper-button-next {
-            top: 97%;
+            top: 92%;
         }
         .worktotal{
             width: 260px;
@@ -231,7 +233,7 @@ a{
         margin: 60px 54px 0 100px;
         h2{
             font-size: 40px;
-            margin: 50px 35px 0;
+            margin: 0px 35px 50px;
         }
         .mySwiper{
             width: 600px;
@@ -246,9 +248,15 @@ a{
             
             .w_img{
                 margin: 0 auto;
+                width: 150px;
+            }
+            .r_calendar{
+                margin: 0 auto;
+                width: 230px;
             }
             .toeat{
-                width: 350px;
+                margin: 0 auto;
+                width: 230px;
             }
             .port{
                 width: 350px;
@@ -258,9 +266,7 @@ a{
         .s_flex{
             display: block;
         }
-        .swiper-slide img {
-            width: 225px;
-        }
+       
         .swiper-button-prev, .swiper-button-next {
             top: 98%;
             right: 190px;
@@ -323,7 +329,7 @@ a{
         height: 650px;
         h2{
             font-size: 30px;
-            margin: 0 auto;
+            margin: 0px 35px 50px;
         }
         .mySwiper{
             width: 600px;
@@ -337,14 +343,15 @@ a{
             width: 360px;
             top: 0;
             .w_img{
-                margin: 0 10px;
+                margin: 0 110px;
             }
             .toeat{
-                width: 350px;
+                margin: 0 120px;
+                width: 300px;
             }
             .port{
                 width: 350px;
-                height: 150px;
+                height: 230px;
             }
         }
         .s_flex{
@@ -352,7 +359,7 @@ a{
         }
         .swiper-slide img {
             width: 400px;
-            height: 150px;
+            height: 200px;
         }
         
         .swiper-button-prev, .swiper-button-next, 

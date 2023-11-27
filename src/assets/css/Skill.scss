@@ -11,7 +11,7 @@
     animation-fill-mode: forwards;
     h2{
         font-size: 64px;
-        margin: 50px 0 0 90px;
+        margin: 0px 0 0 90px;
     }
     .skill_icon{
         .skill_img{
@@ -44,13 +44,21 @@
 @media (max-width: 1600px) {
     .skill{
         width: calc(90% - 350px);
-        margin: 75px 130px;
+        margin: 75px 85px;
         h2{
             font-size: 40px;
-            margin: 50px 0 0 35px;
+            margin: 0px 0 0 35px;
         }
         .skill_icon{
+            .use{
+                h3{
+                    margin: 35px;
+                }
+            }
             .skill_img{
+                h3{
+                    margin-left: 35px;
+                }
                 img{
                     width: 70px;
                     height: 70px;
@@ -66,7 +74,7 @@
 /* === media 1024 === */
 @media (max-width: 1024px) {
     .skill{
-        margin: 65px 0 0 50px;
+        margin: 65px 0 0 150px;
         h2{
             font-size: 40px;
             margin: 50px 0 0 35px;
@@ -98,6 +106,9 @@
         }
         .skill_icon{
             .skill_img{
+                h3{
+                    margin-left: 20px;
+                }
                 img{
                     width: 50px;
                     height: 50px;

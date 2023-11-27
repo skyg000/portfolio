@@ -5,7 +5,7 @@
             clickable: true,
         }" :loop='true' :navigation="true" :modules="modules">
             <swiper-slide class="s_flex">
-                <swiper class="mySwiper2" :autoplay="{delay: 2000,disableOnInteraction: false,}" :loop='true'  :modules="modules">
+                <swiper class="mySwiper2" :autoplay="{delay: 300000,disableOnInteraction: false,}" :loop='true'  :modules="modules">
                     <swiper-slide><img src="../../public/img/work/portfolio/about.png" class="port"></swiper-slide>
                     <swiper-slide><img src="../../public/img/work/portfolio/skill.png" class="port"></swiper-slide>
                     <swiper-slide><img src="../../public/img/work/portfolio/work.png" class="port"></swiper-slide>
@@ -40,7 +40,7 @@
                 </div>
             </swiper-slide>
             <swiper-slide class="s_flex">
-                <swiper class="mySwiper2" :autoplay="{delay: 3000,disableOnInteraction: false,}" :loop='true'  :modules="modules">
+                <swiper class="mySwiper2" :autoplay="{delay: 300000,disableOnInteraction: false,}" :loop='true'  :modules="modules">
                     <swiper-slide><img src="../../public/img/work/b3o2/main.png" class="w_img"></swiper-slide>
                     <swiper-slide><img src="../../public/img/work/b3o2/join.png" class="w_img"></swiper-slide>
                     <swiper-slide><img src="../../public/img/work/b3o2/check.png" class="w_img"></swiper-slide>
@@ -84,11 +84,11 @@
                 </div>
             </swiper-slide>
             <swiper-slide class="s_flex">
-                <swiper class="mySwiper2" :autoplay="{delay: 3000,disableOnInteraction: false,}" :loop='true'  :modules="modules">
-                    <swiper-slide><img src="../../public/img/work/calendar/calendar.png" class="w_img"></swiper-slide>
-                    <swiper-slide><img src="../../public/img/work/calendar/main.png" class="w_img"></swiper-slide>
-                    <swiper-slide><img src="../../public/img/work/calendar/diary.png" class="w_img"></swiper-slide>
-                    <swiper-slide><img src="../../public/img/work/calendar/schedule.png" class="w_img"></swiper-slide>
+                <swiper class="mySwiper2" :autoplay="{delay: 300000,disableOnInteraction: false,}" :loop='true'  :modules="modules">
+                    <swiper-slide><img src="../../public/img/work/calendar/calendar.png" class="r_calendar"></swiper-slide>
+                    <swiper-slide><img src="../../public/img/work/calendar/main.png" class="r_calendar"></swiper-slide>
+                    <swiper-slide><img src="../../public/img/work/calendar/diary.png" class="r_calendar"></swiper-slide>
+                    <swiper-slide><img src="../../public/img/work/calendar/schedule.png" class="r_calendar"></swiper-slide>
                 </swiper>
                 <div class="worktotal">
                     <div class="worktitle">
@@ -121,7 +121,7 @@
             </swiper-slide>
            
             <swiper-slide class="s_flex">
-                <swiper class="mySwiper2"   :loop='true' :autoplay="{delay: 3000,disableOnInteraction: false,}" :modules="modules">
+                <swiper class="mySwiper2"   :loop='true' :autoplay="{delay: 300000,disableOnInteraction: false,}" :modules="modules">
                     <swiper-slide><img src="../../public/img/work/toeat/toeat.png" class="toeat"></swiper-slide>
                     <swiper-slide><img src="../../public/img/work/toeat/cours.png" class="toeat"></swiper-slide>
                     <swiper-slide><img src="../../public/img/work/toeat/watch.png" class="toeat"></swiper-slide>
@@ -161,7 +161,7 @@
                 </div>
             </swiper-slide>
             <swiper-slide class="s_flex">
-                <swiper class="mySwiper2"   :loop='true' :autoplay="{delay: 3000,disableOnInteraction: false,}" :modules="modules">
+                <swiper class="mySwiper2"   :loop='true' :autoplay="{delay: 300000,disableOnInteraction: false,}" :modules="modules">
                     <swiper-slide><img src="../../public/img/work/movie/main.png" class="toeat"></swiper-slide>
                     <swiper-slide><img src="../../public/img/work/movie/detail.png" class="toeat"></swiper-slide>
                     <swiper-slide><img src="../../public/img/work/movie/serch.png" class="toeat"></swiper-slide>
@@ -195,7 +195,7 @@
                 </div>
             </swiper-slide>
             <swiper-slide class="s_flex">
-                <swiper class="mySwiper2"   :loop='true' :autoplay="{delay: 3000,disableOnInteraction: false,}" :modules="modules">
+                <swiper class="mySwiper2"   :loop='true' :autoplay="{delay: 300000,disableOnInteraction: false,}" :modules="modules">
                     <swiper-slide><img src="../../public/img/work/clone/main.png" class="toeat"></swiper-slide>
                     <swiper-slide><img src="../../public/img/work/clone/about.png" class="toeat"></swiper-slide>
                     <swiper-slide><img src="../../public/img/work/clone/artist.png" class="toeat"></swiper-slide>
