@@ -7,10 +7,13 @@
       </button>
     </a>
   </h2>
+  <p class="cimg">
+      AGE : 1994. 03. 03
+    </p>
     <p class="cimg">
       <a href="mailto:skyg000@naver.com" class="mail">
-      E-mail : skyg000@naver.com 
-    </a>
+        E-mail : skyg000@naver.com 
+      </a>
     </p>
     <p class="cimg">
       Phone : 010-4222-1318

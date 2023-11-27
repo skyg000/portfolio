@@ -30,8 +30,9 @@
         font-size: 20px;
         line-height: 2;
         .txtcolor{
+            font-size: 28px;
             color: red;
-            background-color: yellow;
+            background:linear-gradient(to top, yellow 50%,transparent 50%);
             text-emphasis: 'v' rgb(255, 0, 157);
         }
     }
@@ -67,9 +68,9 @@
             }
         }
         .cerfoot{
-            font-size: 20px;
+            font-size: 25px;
             color: red;
-            background-color: yellow;
+            background:linear-gradient(to top, yellow 50%,transparent 50%);
             text-emphasis: 'v' rgb(255, 0, 157);
         }
     }
@@ -92,7 +93,7 @@
             line-height: 2;
             .txtcolor{
                 color: red;
-                background-color: yellow;
+                background:linear-gradient(to top, yellow 50%,transparent 50%);
                 text-emphasis: 'v' rgb(255, 0, 157);
             }
         }
@@ -124,7 +125,7 @@
             .cerfoot{
                 font-size: 20px;
                 color: red;
-                background-color: yellow;
+                background:linear-gradient(to top, yellow 50%,transparent 50%);
                 text-emphasis: 'v' rgb(255, 0, 157);
             }
         }
@@ -143,7 +144,7 @@
             line-height: 2;
             .txtcolor{
                 color: red;
-                background-color: yellow;
+                background:linear-gradient(to top, yellow 50%,transparent 50%);
                 text-emphasis: 'v' rgb(255, 0, 157);
             }
         }
@@ -175,7 +176,7 @@
             .cerfoot{
                 font-size: 20px;
                 color: red;
-                background-color: yellow;
+                background:linear-gradient(to top, yellow 50%,transparent 50%);
                 text-emphasis: 'v' rgb(255, 0, 157);
             }
         }
@@ -235,7 +236,7 @@
             .cerfoot{
                 @include sfont();
                 color: red;
-                background-color: yellow;
+                background:linear-gradient(to top, yellow 50%,transparent 50%);
                 text-emphasis: 'v' rgb(255, 0, 157);
             }
         }
@@ -294,7 +295,7 @@
             .cerfoot{
                 font-size: 15px;
                 color: red;
-                background-color: yellow;
+                background:linear-gradient(to top, yellow 50%,transparent 50%);
                 text-emphasis: 'v' rgb(255, 0, 157);
             }
         }
