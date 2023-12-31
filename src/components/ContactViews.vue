@@ -1,7 +1,7 @@
 <template>
   <div class="contact">
     <h2> CONTACT 
-    <a href="./pdf/홍석현이력서.pdf" download="resume.pdf">
+    <a href="./pdf/resume.pdf" download="resume.pdf">
       <button class="pdf"> 이력서 PDF 
         <img class="down" src="../../public/img/icons/download.jpg"/>
       </button>
