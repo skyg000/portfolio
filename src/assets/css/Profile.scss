@@ -59,9 +59,9 @@ $mode-toggle-bg: #262626;
     
         .greetings {
             text-align: left;
-            font-size: 24px;
+            font-size: 26px;
             .v{
-                text-emphasis: '♥' rgb(255, 47, 0);
+                
             }
                 .ani{
                     display: flex;
@@ -73,6 +73,7 @@ $mode-toggle-bg: #262626;
                     animation-duration: 1.5s;
                     animation-name: p;
                     animation-fill-mode: forwards;
+                    margin-bottom: 10px;
                 }
                 
                 @keyframes p {
