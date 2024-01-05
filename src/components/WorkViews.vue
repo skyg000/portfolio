@@ -187,10 +187,10 @@
                         </p>
                     </div>
                     <div class="link">
-                        <p class="gitlink"> <a href="https://github.com/skyg000/react-movie.git" target="_blank">GitHub 링크 <br>
-                            https://github.com/skyg000/react-movie.git</a> </p>
-                        <p class="workurl"> <a href="https://react-movie-ten-mu.vercel.app/" target="_blank">배포 링크 <br>
-                            https://react-movie-ten-mu.vercel.app/</a> </p>
+                        <p class="gitlink"> <a href="https://github.com/skyg000/r-movie.git" target="_blank">GitHub 링크 <br>
+                            https://github.com/skyg000/r-movie.git</a> </p>
+                        <p class="workurl"> <a href="https://r-movie.vercel.app/" target="_blank">배포 링크 <br>
+                            https://r-movie.vercel.app/</a> </p>
                     </div>
                 </div>
             </swiper-slide>
